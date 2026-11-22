@@ -1,8 +1,7 @@
-import sys
 import io
 import contextlib
 from typing import Dict, Any
-from .ast_guard import ASTSecurityGuard, SecurityViolationError
+from .ast_guard import ASTSecurityGuard
 
 class SafeCodeExecutor:
     """
